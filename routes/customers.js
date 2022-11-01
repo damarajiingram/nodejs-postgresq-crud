@@ -1,6 +1,5 @@
 const { Client } = require('pg');
 var connectionString = "postgres://postgres:ZBclR7QR22vGRTZmMmyUBqGSJAEb8cFZAGOeifi9WW5YcBSwpXUH1VZNK1Iezc05@10.131.1.180:5432/api";
-var connectionString = "postgres://postgres:ZBclR7QR22vGRTZmMmyUBqGSJAEb8cFZAGOeifi9WW5YcBSwpXUH1VZNK1Iezc05@10.128.2.44:5432/api";
 
 const client = new Client({
     connectionString: connectionString
